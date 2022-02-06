@@ -57,6 +57,12 @@ namespace LinkefListProject
             head = newNode;
             Console.WriteLine("{0} : Nodes inserted in Linked list ", newNode.data);
         }
+        //Method to Append Linked List
+        public void AppendLinkedList(int data)
+        {
+            AddLastNode(data);
+            Console.WriteLine("{0} node Appended", data);
+        }
     }
 }
 
